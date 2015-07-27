@@ -1,0 +1,22 @@
+{
+  "globals": {
+    "browser": false,
+    "element": false,
+    "by": false,
+    "describe": false,
+    "xdescribe": false,
+    "ddescribe": false,
+    "it": false,
+    "xit": false,
+    "before": false,
+    "after": false,
+    "beforeEach": false,
+    "afterEach": false,
+    "runs": false,
+    "waitsFor": false
+  },
+  "node": true,
+  "browser": true,
+  "indent": 2,
+  "strict": true
+}

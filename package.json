@@ -1,0 +1,32 @@
+{
+  "name": "big-collection",
+  "version": "0.0.1",
+  "description": "Ampersand.js collection utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*Spec.js",
+    "dev": "mocha -w test/*Spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeropaper/big-collection.git"
+  },
+  "keywords": [
+    "ampersand-collection"
+  ],
+  "author": "Valentin Vago <zeropaper@irata.ch>",
+  "license": "MIT",
+  "homepage": "https://github.com/zeropaper/big-collection",
+  "devDependencies": {
+    "ampersand-collection": "^1.4.5",
+    "ampersand-state": "^4.5.6",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "ampersand-class-extend": "^1.0.2",
+    "ampersand-events": "^1.1.1",
+    "lodash.assign": "^3.2.0",
+    "lodash.bind": "^3.1.0"
+  }
+}
